@@ -1,24 +1,24 @@
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
 
-using namespace std;
+// using namespace std;
 
-int n, m;
-int result;
+// int n, m;
+// int result = 0;
 
-int main() {
+// int main() {
 
-  cin >> n >> m;
+//   cin >> n >> m;
 
-  for (int i = 0; i < n; i++) {
-    int min_value = 10001;
-    for (int j = 0; j < m; j++) {
-      int x;
-      cin >> x;
-      min_value = min(min_value, x);
-    }
+//   for (int i = 0; i < n; i++) {
+//     int min_value = 10001;
+//     for (int j = 0; j < m; j++) {
+//       int x;
+//       cin >> x;
+//       min_value = min(min_value, x);
+//     }
 
-    result = max(result, min_value);
-  }
+//     result = max(result, min_value);
+//   }
 
-  cout << result << endl;
-}
+//   cout << result << endl;
+// }
