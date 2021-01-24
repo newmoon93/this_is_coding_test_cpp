@@ -8,7 +8,7 @@
 // int main(void) {
 //     for (int i = 0; i < n; i++) {
 //         int min_index = i; // 가장 작은 원소의 인덱스 
-//         for (int j = i + 1; j < n; j++) {
+//         for (int j = i + 1; j <  n; j++) {
 //             if (arr[min_index] > arr[j]) {
 //                 min_index = j;
 //             }
